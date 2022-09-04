@@ -21,7 +21,7 @@ if ($query)
 
   // create a new solr service instance - host, port, and webapp
   // path (all defaults in this example)
-  $solr = new Apache_Solr_Service('localhost', 8983, '/solr/myexample3');
+  $solr = new Apache_Solr_Service('localhost', 9000, '/solr/myexample3');
 
   // SPELL CORRECTION
   $query_terms = explode(" ", $query);
